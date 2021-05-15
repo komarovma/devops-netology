@@ -1,4 +1,7 @@
-# devops-netologyusage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+lst:
+
+
+
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
@@ -17,7 +20,7 @@ work on the current change (see also: git help everyday)
    rm                Remove files from the working tree and from the index
    sparse-checkout   Initialize and modify the sparse-checkout
 
-examine the history and state (see also: git help revisions)
+e also: git help revisions)
    bisect            Use binary search to find the commit that introduced a bug
    diff              Show changes between commits, commit and working tree, etc
    grep              Print lines matching a pattern
@@ -30,9 +33,7 @@ grow, mark and tweak your common history
    commit            Record changes to the repository
    merge             Join two or more development histories together
    rebase            Reapply commits on top of another base tip
-   reset             Reset current HEAD to the specified state
-   switch            Switch branches
-   tag               Create, list, delete or verify a tag object signed with GPG
+   h GPG
 
 collaborate (see also: git help workflows)
    fetch             Download objects and refs from another repository
