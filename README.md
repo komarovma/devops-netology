@@ -93,7 +93,7 @@ vagrant@vagrant:~/alot$ touch testfile{1…10000}<br>
 vagrant@vagrant:~/alot$ touch testfile{1…300000}<br>
 -bash: /usr/bin/touch: Argument list too long</p>
 <p class="has-line-data" data-line-start="116" data-line-end="117">11 В man bash поищите по /[[. Что делает конструкция [[ -d /tmp ]]</p>
-<pre><code>   [ - это расширенная версия [ - начиная с bash версии 2. Специфична для bash. В твоём случае это не имеет значения, насколько я понимаю. -d /tmp - проверка того, что /tmp - существует и является каталогом.
+<pre><code>   [ - это расширенная версия [ - начиная с bash версии 2. Специфична для bash.  -d /tmp - проверка того, что /tmp - существует и является каталогом.
 </code></pre>
 <p class="has-line-data" data-line-start="120" data-line-end="134">12 Основываясь на знаниях о просмотре текущих (например, PATH) и установке новых переменных; командах, которые мы рассматривали, добейтесь в выводе type -a bash в виртуальной машине наличия первым пунктом в списке:<br>
 mike@DESKTOP-1CBC5OA:~$ type -a bash<br>
